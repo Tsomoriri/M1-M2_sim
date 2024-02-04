@@ -7,7 +7,7 @@ import os
 
 data = pd.read_csv('/home/sushen/projects/com_modelling_sim/results/finals/FindHandoverRATE.csv')
 current_directory = os.getcwd()
-ca_directory = os.path.join(current_directory, 'CA1_plots') # CA1 is the folder name, it will store the plots
+ca_directory = os.path.join(current_directory, 'plots') # CA1 is the folder name, it will store the plots
 os.makedirs(ca_directory, exist_ok=True)
 
 # Plot arrival rate handover vs  loss
