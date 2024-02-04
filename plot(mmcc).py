@@ -35,9 +35,9 @@ ax3.set_xlim(0, 0.1)  # Set x-axis limits
 ax3.set_ylim(0, 4000)  # Set y-axis limits
 
 current_directory = os.getcwd()
-ca_directory = os.path.join(current_directory, 'CA1_plots')
+ca_directory = os.path.join(current_directory, 'plots')
 os.makedirs(ca_directory, exist_ok=True)
 
 
-# Save the figure as a PNG file in the "CA" folder
+# Save the figure as a PNG file in the "plots" folder
 plt.savefig(os.path.join(ca_directory, 'mmccfinals.png'))
